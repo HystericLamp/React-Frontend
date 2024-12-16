@@ -1,5 +1,5 @@
 import React from "react";
-import AppointmentsTable from "./hooks/AppointmentsTable"
+import AppointmentsTable from "./components/AppointmentsTable"
 import './App.css';
 
 function App() {
