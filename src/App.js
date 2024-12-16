@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from "react";
+import AppointmentsTable from "./hooks/AppointmentsTable"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="min-h-screen bg-gray-100 text-gray-900">
+          <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+            <div className="mt-4">
+              <AppointmentsTable />
+            </div>
+          </main>
+        </div>
     </div>
   );
 }
