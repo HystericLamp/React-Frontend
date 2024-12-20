@@ -1,4 +1,4 @@
-# TLTHP - Part 2
+# React Frontend example
 
 ### Setup
 1. Install node and npm
